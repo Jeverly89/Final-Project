@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Life Expectancy</title>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg bg-light navbar-light">
+    <img src="https://unsplash.it/30/30" class="mr-2">
+    <a class="navbar-brand" href="#">Life Expectancy</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-body"
+        aria-controls="navbar-body" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbar-body">
+        <ul class="navbar-nav mr-auto"></ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="index.html">Life Expectancy</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Obesity</a></li>
+            <li class="nav-item"><a class="nav-link" href="AirQuality.html">Air Quality</a></li>
+            <li class="nav-item"><a class="nav-link" href="#">Comparisons</a></li>
+        </ul>
+    </div>
+</nav>
+<div id="carousel-ID" class="carousel slide" data-ride="carousel" data-interval="3000">
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-ID" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <iframe src="Life_Expectancy_Map.html" width="100%" height="600px" style="border:none;"></iframe>
+        </div>
+    </div>
+</div>
+
+<div class="my-5"></div>
+
+<div style="max-width: 1000px; margin: 0 auto;">
+    <ul style="text-align: left;">
+        <li>States in the Northeast and West show the highest life expectancy like Hawaii, California, Massachusetts, and Washington. These states have life expectancy of 80 years or more.</li>
+        <li>Many Southern and Appalachian states such as Mississippi, Alabama, Louisiana, Arkansas, and West Virginia have significantly lower life expectancy, at around 77 or fewer.</li>
+        <li>The map reveals a clear North–South divide, with northern and western states consistently outperforming the Deep South.</li>
+        <li>States with high infrastructure and more urban areas tend to have higher life expectancy compared to more rural states.</li>
+    </ul>
+</div>
+
+<div class="my-5"></div>
+<div style="max-width: 1000px; margin: 0 auto;">
+    <iframe src="life_expectancy_plot.html" width="100%" height="600px" style="border:none;"></iframe>
+</div>
+
+<div class="my-5"></div>
+<div style="max-width: 1000px; margin: 0 auto;">
+    <ul style="text-align: left;">
+        <li>Women consistently live longer than men across the country, with a higher median life expectancy. Women also tend to have less variability in life expectancy, suggesting more stable outcomes.</li>
+        <li>Men have a wider spread of life expectancy values, showing greater potential for high life expectancy but also more risk for low values.</li>
+        <li>The boxplot clearly visualizes the gender gap in life expectancy, which we do not suspect to be abnormal.</li>
+        <li>Public health data shows that there are biological or behavioral differences contributing to women living longer than men on average.</li>
+    </ul>
+</div>
+
+<div class="my-5"></div>
+
+<footer style="text-align:center; padding: 20px; background-color:#f2f2f2; margin-top:40px;">
+    <p style="margin:0; font-size:14px; color:#555;">© 2025 Your Name. All rights reserved.</p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
